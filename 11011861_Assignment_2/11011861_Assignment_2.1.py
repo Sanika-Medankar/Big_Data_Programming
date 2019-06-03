@@ -40,7 +40,7 @@ def game():
         print("\nRolling Dice for player {} ...".format(player1.playerName))
         time.sleep(3)
         player1Dice = random.randint(1,6)
-        print("\n{}\nRolling Dice for player {} ...".format(player1Dice, player2.playerName))
+        print("\n{}\n\nRolling Dice for player {} ...\n".format(player1Dice, player2.playerName))
         time.sleep(3)
         player2Dice = random.randint(1,6)
         print(player2Dice) 
